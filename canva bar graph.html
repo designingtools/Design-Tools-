@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Canva Bar Graphs - A Complete Guide for all</title>
+        <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" initial-scale=1>
+        <meta name="description" content="Canva provides the perfect toolkit you need to create awesome designs. But for that, first you ought to have a good grip on its tools. In this article we'll see how to use the toolkit(templates, elements, etc) in the Side Menu.">
+        <meta name="keywords" content="Templates, Canva, Elements, Side Panel, Side menu"> 
+        <meta property="og:title" content="Canva Tools - Using Side Menu Tags ">
+        <meta property="og:description" content="Canva provides the perfect toolkit you need to create awesome designs. But for that, first you ought to have a good grip on its tools. In this article we'll see how to use the toolkit(templates, elements, etc) in the Side Menu.">
+        <meta property="og:image" content="https://github.com/designingtools/designingtools.github.io/blob/main/images/canva%20template.webp">
+        <meta property="og:url" content="https://designingtools.github.io/">
+
+        <meta name="twitter:title" content="Canva Tools - Using Side Menu Tags ">
+        <meta name="twitter:description" content="Canva provides the perfect toolkit you need to create awesome designs. But for that, first you ought to have a good grip on its tools. In this article we'll see how to use the toolkit(templates, elements, etc) in the Side Menu.">
+        <meta name="twitter:url" content="https://designingtools.github.io/">
+        <meta name="twitter:image" content="https://github.com/designingtools/designingtools.github.io/blob/main/images/canva%20template.webp">
+        <meta name="twitter:card" content="summary">
+
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+        <style>
+        
+        @font-face {
+            font-family: "Montserrat";
+            src: url("Fonts/Montserrat/Montserrat-Medium.ttf");
+            
+        }
+        @font-face{
+            font-family:"Roboto";
+            src:url("Fonts/Roboto/Roboto-Light.ttf");
+
+        }
+        @font-face {
+            font-family: "Roboto";
+            src: url("Fonts/Roboto/Roboto-Regular.ttf"),url("Fonts/Roboto/Roboto-Medium.ttf");
+        }
+        @font-face{
+            font-family:"Montez";
+            src:url("Fonts/Montez-Regular.ttf");
+        }
+        @font-face{
+            font-family:"Mirza";
+            src:url("Fonts/Mirza/Mirza-Medium.ttf");
+        }
+        * {
+            box-sizing: border-box;
+        }
+            body{
+                margin:0;
+                padding:0;
+            }
+            nav{
+                background-image: linear-gradient(90deg,#2B7CB7, #49D9AE);
+                height:95px;
+                box-shadow: 0 6px 15px 0 #00000025;
+                position: fixed;
+                display:block;
+                width:100%;
+                top:0px;
+                padding:20px 0 0 0;
+            }
+            span.sitename{
+                padding-top:55px; 
+                font-family:Montez; 
+                color:white; 
+                font-size:36px;
+            }
+            div.gototop{
+                position:fixed;
+                bottom:25px;
+                right:5px;
+                padding: 0px 6px 1px 6px;
+                background-color: #acacacc0; 
+                /*opacity:50%;*/
+                border-radius: 50%;
+                display:none;
+                box-shadow:4px 4px 25px 0 #2b2b2b79; 
+                z-index:2;
+            }
+            div.gototop>a>i{
+                color:#2c2c2c ;
+                font-size:17px;
+            }
+            div.gototop:hover{
+                background-color: #2c2c2c; 
+                /*opacity:100%;*/
+            }
+            div.gototop:hover > a > i{
+                color:#bbbbbb;
+            }
+            .iconify-inline{
+                width:50px;
+                height:40px;
+                color:white;
+                margin:12px 0 0 15px;
+            }
+            #main{
+                margin:150px 25px 0 25px;
+            }
+            span{
+                font-family:Montserrat;
+            }
+            img{
+                box-shadow: 0 6px 20px 0 #32323225;
+                max-width:100%;
+                margin:35px 0;
+            }
+            p{
+                font-family: Roboto;
+                font-weight: 500;
+                line-height: 25px;
+                font-size:18px;
+                color: #2e2e2e;
+                padding: 0 5px;
+                text-align: justify;
+                width:100%;
+            }
+            p.tags{
+                color:#dd4c5f;
+                font-size:20px;
+                font-family: Helvetica;
+                
+            }
+            div#listofcontents{
+                width:720px;
+            }
+            h3{
+                font-size:26px;
+                color:#07A2D3;
+            }
+            div.sections{
+                margin-bottom:35px;
+                
+            }
+            h2{
+                font-family:Mirza;
+                color:#003C97;
+                font-size:40px;
+            }
+            div.sections>img{
+                margin:20px 0 30px 0; 
+            }
+            div.sections>h4{
+                padding-left:5px;
+                font-weight: 600;
+            }
+            div.elements>ul{
+                list-style-type:disc;
+                color:#292929;
+            }
+            ul{
+                list-style-type:disc;
+                color:#353535;
+            }
+            ul>li{
+                font-size:18px;
+                font-family:Roboto;
+                font-weight: 600;
+                margin:8px 0
+            }
+            ul#topics>li{
+                margin:10px 0;
+                text-decoration: none;
+                color:#2ca4c9;
+                font-size:18px;
+            }
+           /* ul#topics>li>a{
+                text-decoration: none;
+                color:#07A2D3;
+                font-size:18px;
+            } */ 
+            /*ul#topics>li:hover, ul#topics>li>a:hover{
+                color:#054EA4;
+            }*/
+            ol{
+                width:350px;
+            }
+            ol>li{
+                font-size:18px;
+                color:#001f47;
+                font-family:Roboto;
+                font-weight:300;
+            }
+            div.tips{
+                border-left: 5px solid #07A2D3;
+                background-color:#d5f5ffb0; 
+                padding:20px;
+                width:100%;
+            }
+            span.difffromlist{
+                font-weight:500; font-family:Roboto;
+            }
+            @media only screen and (min-width:600px)
+            {
+                #main{
+                    margin:150px 50px 0 50px;
+                }
+                nav{
+                    height:100px;
+                }
+                span.sitename{
+                    font-size:40px;
+                }
+                p{
+                    font-size:19px;
+                    line-height:30px;
+                    width:90%;
+                }
+                ol{
+                    width:620px;
+                }
+                div.tips{
+                width:90%;
+                }
+                div.sections>img{
+                    margin:35px 0;
+                }
+                ul>li{
+                    font-size:20px;
+                }
+                h1{
+                    font-size:50px;
+                }
+                h2{
+                    font-size:48px;
+                }
+                h3{
+                font-size:32px;
+                }
+                ul#topics>li>a{
+                font-size:22px;
+                }  
+                div.gototop{
+                    padding:1px 6px 2px 6px;
+                    position:fixed;
+                    right:10px;
+                    bottom:25px;
+                }  
+                div.gototop>a>i{
+                font-size:25px;
+                }
+            }
+            @media only screen and (min-width:768px)
+            {
+                #main{
+                    margin:150px 70px 0 70px;
+                }
+                img{
+                    max-width:85%;
+                }
+                h1{
+                    font-size:52px;
+                }
+                p{
+                    font-size:19px;
+                }
+                ul>li{
+                    font-size:22px;
+                }
+                ol{
+                    width:720px;
+                }
+            }
+ 
+            @media only screen and (min-width:992px)
+            {
+                #main{
+                    margin:150px 100px 0 100px;
+                }
+                p{
+                    width:80%;
+                }
+                div.tips{
+                width:80%;
+                }
+                img {
+                    max-width: 80%;
+                }
+                ol{
+                    width:720px;
+                }
+            }
+        </style>
+    
+    </head>
+    <body>
+        <nav style="text-align:center;">
+            <span class="sitename">Design Tools</span>
+        </nav>
+        <div class="gototop" id="totop">        
+            <a href="#main"><i class="fa fa-angle-up"></i></a>
+        </div>
+        <!--Main Article starts-->
+        <div id="main">
+            <h1><span class="part1h1" style="color:#054EA4;">Canva Bar Graph - </span><span class="part2h1" style="color:#343434;">A Complete Guide</span></h1>
+            <img src="images/hero img.webp" alt="Featured Image">
+            <p>Canva provides multiple chart types to present the data in an interesting and graphical way.
+            Charts types include : Bar chart, pie chart, line chart, histogram chart, scatterplot chart and so on.
+            This article is all about Bar Graphs in Canva. By the time you finish reading this article you will know</p>
+            <p>How to:</p>
+            <!--CONTENTS OF PAGE-->
+            <div id="listofcontents">
+                    <ol style="list-style-type: disc;">
+                        <li>Add a bar chart in canva</li><br>
+                        <li>Customize the designing of the bar graph - color of the bars, font size of the text in the bar graph, and so much more.</li><br>
+                        <li>Extract data for your canva bar graph from ‘Google Sheets’</li><br>
+                        <li>Do some settings on your bar graph.</li><br>
+                    </ol>
+            </div>
+            <p>So, let's get started :)</p>
+            <!--Template Section-->
+            <div class="sections" id="template">
+                <h2>Data</h2>
+                <img src="images/charts location 1.webp" alt="Charts in elements">
+                <h4>How can I insert a bar chart?</h4>
+                <p>Way 1 - You can find Charts in the Elements Tab. Go to Charts in Elements tab. Select the chart type.</p>
+                <img src="images/charts location 2.webp" alt="Charts in elements">
+                <p>Way 2 - There is a Charts Tab like there are other tabs (Templates, Elements, Uploads) but you need to scroll down tabs pane for that.
+                    <br>Once you find the tab, click on it and a variety of chart types will appear. 
+                    <br>You can select the chart you want to use.
+                </p>
+                <br><br>
+                <p>By default, the selected chart displays some info given in the table. To add your data, first click on Clear data. Then you can add data manually in the table or insert data from a google sheets.</p>
+                <p class="tags">Steps to import a spreadsheet from Google sheets</p>
+                <ol >
+                    <li>Click on Add data button at the bottom. Click on Google sheets.</li><br>
+                    <li>A Sign-in window appears which shows you the accounts logged in your device. Select your gmail account.</li><br>
+                    <img src="images/google sheets list 2.webp" alt="sheet list">
+                    <li>Select the required spreadsheet. Choose the Sheet number.</li><br>
+                    <img src="images/select sheet and range.webp" alt="sheet range and select">
+                    <li>Type in the cell range whose data you want to display in form of a chart.</li><br>
+                    <img src="images/marks sheet.webp" alt="marksheet">
+                    <li>In the image above we have defined cell range as A1:D4. Therefore the cells whose data will be displayed in the bar graph are A1 to A4 + B1 to B4 + C1 to C4 + D1 to D4</li><br>
+                    <li>Click on update.</li><br>
+                </ol>
+                <p>In the 3 dots next to the Name of the sheet you’ll find 3 options</p>
+                <img src="images/sheet options.webp" alt="sheet options">
+                <p class="tags">
+                    Select a different sheet
+                </p>
+                <p>Choose “Select a different sheet” option. List of spreadsheets appears. Pick the required spreadsheet.</p>
+                <p class="tags">
+                    Remove a sheet
+                </p>
+                <p>To remove any sheet select Unlink from Google Sheets.</p>
+                <p class="tags">
+                    Opening sheet in Google Sheets
+                </p>
+                <p>You can also open the selected sheet in Google sheets by clicking on 3 dots and choosing Open in Google sheets.</p>
+
+                <p>Note : The changes made in the current Google sheet are not reflected in the canva bar graph dynamically i.e. you need the click on the Update button in the Data tab of the bar graph you made in Canva.</p>
+
+            </div>
+            <!--Ended-->
+            <!--Elements Section-->
+            <div class="sections elements" id="element">
+                <h2>Design Formatting</h2>
+                <img src="images/design format.webp" alt="design formatting">
+                <p class="tags">1. Color for Bar graph items</p>
+                <p>As you keep adding columns and their values in the table, colors are automatically assigned to the new bars.
+                <br>First color represents color of First bar. Second color represents color of second bar and so on…
+                <br>To change the colors, click on the color square and select the color of your choice.</p>
+
+               <p class="tags">2. Spacing</p>
+                <p>Sets the spacing between the bar chart items.</p>
+                <p class="tags">3. Roundness</p>
+                <p>Make the corners of a bar rounded. You can set the value for roundness as you like.</p>
+                <p>Note- It is recommended to keep the value less than or equal to 8.
+                <br>Giving larger values makes it difficult to read the precise value represented by the bars.
+                </p>
+                <p class="tags">4. Font</p>
+                <p><strong>Style - </strong>Specifies the font style( Arial, Times New Roman, Calibri ) for all the text used in the bar graph</p>
+                <p><strong>Size - </strong>Sets the font size of all the text in the bar chart in canva.</p>
+                <p><strong>Text Color - </strong>Sets the text color of all the items, series and values in the bar graph in canva.</p>
+                <p class="tags">Background</p>
+                <p>Canva bar graph has no background. Reflects everything beneath it on the canvas.</p>
+                <p><b>Tip : To give a background to your bar graph follow these steps :</b>
+                    <br>Go to elements > Select Lines and Shapes
+                    <br>Drop a Rectangle on the canva. Fill it with the background color. 
+                    <br>Increase it’s size so that it can contain the complete bar chart.
+                    <br>Right-click and select Send to backward. Sends the rectangle one layer back.
+                </p>
+
+            </div>
+            <!--Ended-->
+            <!--Uploads-->
+            <div class="sections" id="uploadfiles">
+                <h2>Settings</h2>
+                <img src="images/settings.webp" alt="Canva Upload Files">
+                <p>Bar graph settings in canva consists of 2 categories :</p>
+                <p class="tags">Basic</p>
+                <p>Legend - Defines what each bar in a bar set represents.
+                <br>Label are the items displayed in horizontal and vertical axis of the bar graph
+                <br>Gridlines are the light lines on the bar graph which assist in reading the numeric values precisely.
+                <br>In basic setting you can show or hide the legend, labels and gridlines.
+                </p>
+                <p class="tags">Series</p>
+                <p>Gives you the option of plotting </p>
+                <ol style="list-style-type:none;">
+                    <li><b style="color:#003C97;">Columns as series :</b> 
+                        <br>Each bars set represents data of 1 row. Therefore these pick up values of column one and display them as series.
+                    </li>
+                    <br>
+                    <li><b style="color:#003C97;">Rows as series :</b> 
+                        <br>Each bar set represents values belonging to one column of the table with column headings written as series ( On horizontal-axis )
+                    </li>
+                </ol>
+                
+            </div>
+            
+            <!--Conclusion-->
+            <div class="sections">
+                <h3 style="color:#1f1f1f; font-weight:600;">Conclusion</h3>
+                <p>Now that you are well versed with almost all the tools in the Side Menu, you can go ahead and create stunning designs for your project!</p>
+            </div>
+            <!--Ended-->
+        <!--Main Ended-->
+        </div>
+        
+    </body>
+    <script>
+    let goto=setInterval(gototopbtn, 1000);
+   
+   
+    function gototopbtn(){
+       var windScroll = document.body.scrollTop || document.documentElement.scrollTop;
+       var heights = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+       var gotoscroll = (windScroll / heights) * 100;
+
+       if(gotoscroll>=30)
+           {
+                document.getElementById('totop').style.display="inline-block";
+           }
+       else{
+               document.getElementById('totop').style.display="none";
+           }
+    }
+
+    </script>
+    </html>
